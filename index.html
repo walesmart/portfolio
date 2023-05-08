@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/042fcc75e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span><em>F.A</em></span>Odunikan.</h1>
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times " onclick="closeMenu()" ></i>
+                </ul>
+                <i class="fas fa-bars " onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Felix Ade</span> <br>Odunikan From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/checkme.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt asperiores fugit quia nisi, voluptates at nesciunt ex provident tempora mollitia facilis esse, voluptas rerum aliquam officia assumenda, enim modi animi.</p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick ="opentab ('skills')">Skills</p>
+                        <p class="tab-links" onclick ="opentab ('experience')">Experience</p>
+                        <p class="tab-links" onclick ="opentab ('education')">Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web  Development</span> <br>Web app Development</li>
+                            <li><span>App Development</span>  <br>Building Andriod/Ios apps</li>
+                            <li><span>Web Designing</span>  <br>Web app dsigning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web  Development</span> <br>Web app Development</li>
+                            <li><span>App Development</span>  <br>Building Andriod/Ios apps</li>
+                            <li><span>Web Designing</span>  <br>Web app dsigning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>Web  Development</span> <br>Web app Development</li>
+                            <li><span>App Development</span>  <br>Building Andriod/Ios apps</li>
+                            <li><span>Web Designing</span>  <br>Web app dsigning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- services -->
+
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My Service</h1>
+    <div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci delectus aspernatur error magnam mollitia eaque cumque, placeat tempore quaerat excepturi. Ratione quisquam libero neque veritatis quibusdam quia laudantium ad explicabo.</p>
+        <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fa-regular fa-crop"></i>
+        <h2>Web Design</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci delectus aspernatur error magnam mollitia eaque cumque, placeat tempore quaerat excepturi. Ratione quisquam libero neque veritatis quibusdam quia laudantium ad explicabo.</p>
+        <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Development </h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci delectus aspernatur error magnam mollitia eaque cumque, placeat tempore quaerat excepturi. Ratione quisquam libero neque veritatis quibusdam quia laudantium ad explicabo.</p>
+        <a href="#">Learn More</a>
+    </div>
+    </div>
+</div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 sun-title>My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="/images/site.webp" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est hic iste temporibus deleniti earum ad consectetur aut nam, voluptates, nemo facere iure accusamus officiis odit itaque, vel delectus sint!</p>
+                <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/images/codes.jpeg" alt="">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est hic iste temporibus deleniti earum ad consectetur aut nam, voluptates, nemo facere iure accusamus officiis odit itaque, vel delectus sint!</p>
+                <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/images/app.jpg" alt="">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est hic iste temporibus deleniti earum ad consectetur aut nam, voluptates, nemo facere iure accusamus officiis odit itaque, vel delectus sint!</p>
+                <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href ="#" class ="btn">See More</a>
+    </div>
+</div>
+
+<!-- contact -->
+
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>felixodunikan@gmail.com</p>
+            <p> <i class="fa-regular fa-phone"></i>08139505884</p>
+            <div class="social-icon">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></i></a>
+            </div>
+            <a href="" class="btn btn2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="name"placeholder="your name" required>
+                <input type="email"name="email" placeholder="your email" required>
+                <textarea name="massage"  rows="6"placeholder="your message"></textarea>
+                <button class="btn btn2" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@Felix Ade Odunikan<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+</div>
+
+
+    <script >
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+
+    <script>
+
+        var sideMenu =  document.getElementById("slidemenu")
+
+        function openMenu(){
+            sideMenu.style.right="0" 
+        }
+        function closeMenu(){
+            sideMenu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
